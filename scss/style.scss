@@ -1,0 +1,134 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Стили для хэдера */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header__logo {
+    font-size: 24px;
+    img{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  .header__nav ul {
+    display: flex;
+  }
+  
+  .header__nav li {
+    margin-right: 20px;
+  }
+  
+  .header__nav a {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .header__user-info {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__user-info a {
+    margin-left: 10px;
+  }
+  
+  /* Стили для контента */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Стили для футера */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+  .auth{
+    height: 100vh;
+    padding-top: 200px;
+    display: flex;
+    column-gap: 20px;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    label{
+        font-size: 30px;
+    }
+    input{
+        margin-bottom: 20px;
+        height: 50px;
+        font-size: 30px;
+        padding-left: 15px;
+    }
+}
+h2{
+  text-align: center;
+}
+  h1{
+      text-align: center;
+  }
+  .container{
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 0 15px;
+  }
+
+
+
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  table {
+    margin: 50px auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: #ccc;
+  }
+
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .content{
+    min-height: 79.5vh;
+  }
